@@ -4,6 +4,7 @@ import Counter from "./Components/Counter";
 import Obj from "./Components/Obj";
 import FormBasics from "./Components/FormBasics";
 import FormBasics2 from "./Components/FormBasics2";
+import Favourite from "./Components/Favourite";
 
 import "./style.css"
 
@@ -14,7 +15,8 @@ const App = () => {
             {/* <Counter /> */}
             {/* <Obj /> */}
             {/* <FormBasics /> */}
-            <FormBasics2 />
+            {/* <FormBasics2 /> */}
+            <Favourite />
         </div>
     );
 }
